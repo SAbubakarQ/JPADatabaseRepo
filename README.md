@@ -26,7 +26,7 @@ Finally, the Salary table will take in an int salary level, int bonus percentage
 These values will be saved to the corresponding schema wihtin the database.
 
 ### 2. Delete Database Entry
-This will give the same options from choosing first which schema you want to delete from. Afterwards, the deletion is only from the entry Id. 
+This will give you the same options to choose from either Employee, Company, or Salary to delete from. Afterwards, the deletion is only from the entry Id. 
 
 ### 3. Update Database
 This will prompt you to update from the table. You will find the entry you want to update for the Employee table by searching via Employee ID. Once the Employee id is found, the same entry from creation will be able to be updated. For Company, it will be searched via Company Name. Once the program finds the company based on the company name, you will be prompted to update either the company name, city, state, zip, or country. Finally, the Salary update operation will also only use the Salary Id from the table. 
